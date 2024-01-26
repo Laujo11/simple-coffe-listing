@@ -1,0 +1,55 @@
+.card__img {
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.card__info {
+    padding: 15px 0 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.card__info__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__info__rating__container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card__info__price {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.card__info__price__h6 {
+    background-color: var(--price-background);
+    padding: 3px;
+    border-radius: 2px;
+    color: var(--list-background);
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.card__info__price__h6--soldOut {
+    display: flex;
+    background-color: unset;
+    color: var(--sold-out);
+    flex: 1;
+    align-items: end;
+}
+
+.card__info__rating span {
+    color: var(--paragraph);
+    padding-left: 2px;
+}

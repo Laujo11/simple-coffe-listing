@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --home-background: #111315;
+    --list-background: #1B1D1F;
+    --paragraph: #6F757C;
+    --price-background: #BEE3CC;
+    --name: #FEF7EE;
+    --popular: #F6C768;
+    --sold-out: #ED735D;
+}
