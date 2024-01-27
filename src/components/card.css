@@ -53,3 +53,17 @@
     color: var(--paragraph);
     padding-left: 2px;
 }
+
+
+.popular::before {
+    content: "Popular";
+    position: absolute;
+    margin: 10px;
+    background-color: var(--popular);
+    color: var(--list-background);
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
